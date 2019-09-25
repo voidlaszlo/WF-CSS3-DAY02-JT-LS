@@ -1,0 +1,101 @@
+img {
+  width: 50px;
+}
+#face {
+  width: 400px;
+  position: fixed;
+  top: 50px;
+left: 340px;
+bottom: 0px;
+
+}
+body {
+	padding: 50px;
+	height:175%;
+}
+
+#eyes1{
+	position: absolute;
+	left: 480px;
+	top: 190px;
+	width: 120px;
+	height: 100px;
+
+}
+#hair1{
+	position: absolute;
+	left: 380px;
+	top: 0px;
+	width: 320px;
+	height: 350px;
+
+}
+#mouth2 {
+	position: absolute;
+	left: 460px;
+	top: 350px;
+	bottom: 500px;
+	width: 150px;
+	height: 100px;
+
+}
+#nose1{
+	position: absolute;
+	left: 500px;
+	top: 280px;
+	bottom: 500px;
+	width: 70px;
+	height: 90px;
+}
+#ears1{
+position: absolute;
+	left: 340px;
+	top: 200px;
+	width: 385px;
+	height: 150px;
+}
+#eyes2{
+	position: absolute;
+	left: 480px;
+	top: 825px;
+	width: 120px;
+	height: 100px;
+}
+#hair2{
+	position: absolute;
+	left: 380px;
+	top: 675px;
+	width: 320px;
+	height: 350px;
+}
+
+#hat{
+	position: absolute;
+	left: 380px;
+	top: 1000px;
+	width: 0px;
+	height:0px;
+}
+#mouth1{
+	position: absolute;
+	left: 460px;
+	top: 970px;
+	bottom: 500px;
+	width: 150px;
+	height: 100px;
+}
+#nose2{
+	position: absolute;
+	left: 500px;
+	top: 900px;
+	bottom: 500px;
+	width: 70px;
+	height: 90px;
+}
+#ears2{
+position: absolute;
+	left: 330px;
+	top: 850px;
+	width: 420px;
+	height: 150px;
+}

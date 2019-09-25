@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+		padding: 3em;
+	}
+ nav,section,footer{
+ 	background-color: lightgray;
+ }
+ header{
+ 	font-size: 30px;
+ }
+ header,footer{
+ 	text-align: center;
+ }
+.feature{
+	width: 100%;
+	text-align: center;
+}
+
+.column {
+	display: flex;
+	text-align: center;
+}
+
+.column > div {
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: lightgray;
+	width: 100%;
+}
+nav > ul > li {
+	display: inline-block;
+	padding-right: 5px;
+	margin-top: 15px;
+
+}
+nav {
+	text-align: center;
+	height: 50px;
+}
+nav > ul > li > a {
+	color: black;
+}
+</style>
+</head>
+<body>
+	<header>
+		<p>Logo</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#" >Home</a></li>
+			<li><a href="#" >Products</a></li>
+			<li><a href="#" >Services</a></li>
+			<li><a href="#" >About</a></li>
+			<li><a href="#" >Contact</a></li>
+		</ul>
+	</nav>
+	<section class="feature">
+		<h2>Feature</h2>
+	</section>
+	<div class="column">
+		<div><p>Col 1</p></div>
+		<div><p>Col 1</p></div>
+		<div><p>Col 1</p></div>
+	</div>
+	<footer>
+		<p>&copy Copyright 2011</p>
+	</footer>
+	
+</body>
+</html>
