@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', sans-serif;
+}
+
+div.container {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    padding: 0 50px;
+}
+
+p, li {
+    color: #707070;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #DB0038;
+}
+
+h2 {
+    color: #3998A3
+}
+
+h3 {
+    color: #474747;
+}
+
+div.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+div.rating {
+    color: #F4B400;
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+}
